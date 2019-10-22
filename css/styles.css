@@ -7,13 +7,15 @@
   margin-right: 60px;
   /* transition: transform 1s;
   transform-style: preserve-3d; */
+  text-align: center;
+  padding-top: 15%;
 }
 .front {
-  background-color: red;
-  display: none;
+  display: block;
+
 }
 
 .back {
-  background-color: blue;
-  display: block;
+
+  display: none;
 }
