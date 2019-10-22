@@ -1,0 +1,19 @@
+.card {
+  border: 2px solid black;
+  width: 400px;
+  height:500px;
+  margin: 10px;
+  border-radius: 5px;
+  margin-right: 60px;
+  /* transition: transform 1s;
+  transform-style: preserve-3d; */
+}
+.front {
+  background-color: red;
+  display: none;
+}
+
+.back {
+  background-color: blue;
+  display: block;
+}
