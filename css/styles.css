@@ -1,21 +1,37 @@
 .card {
   border: 2px solid black;
   width: 400px;
-  height:500px;
+  height:300px;
   margin: 10px;
   border-radius: 5px;
   margin-right: 60px;
   /* transition: transform 1s;
   transform-style: preserve-3d; */
   text-align: center;
+  padding: 10px;
   padding-top: 15%;
+  overflow: auto;
+  background-color: #a189b0;
 }
+
 .front {
   display: block;
-
+  font-family: futura;
 }
 
 .back {
-
+  font-family: consolas;
   display: none;
+  font-size: 20px;
 }
+
+ul {
+  text-align: left;
+}
+ h1 {
+   text-align: center;
+   font-family: futura;
+ }
+ body {
+   background: #fffdd0
+ }
